@@ -46,6 +46,7 @@ function updateTimer() {
 			hours++
 		}
 	}
+	saveTime()
 	updateTimerDisplay()
 }
 
